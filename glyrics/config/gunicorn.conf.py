@@ -7,7 +7,7 @@ with open(os.path.join(os.path.dirname(__file__), 'config.json')) as f:
     CONFIG = json.load(f)
 
 
-bind = f'0.0.0.0:{CONFIG.get("server", {}).get("port", 5555)}'
+bind = f'0.0.0.0:{CONFIG.get("server", {}).get("port", 8900)}'
 workers = multiprocessing.cpu_count()
 pidfile = CONFIG.get('server', {}).get('pid_file_path')
 
