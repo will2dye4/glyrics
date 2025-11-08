@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "glyrics"
 version = "0.1.0"
-description = ""
+description = "Flask app for fetching song lyrics from the Genius API"
 authors = ["William Dye"]
 readme = "README.md"
 
